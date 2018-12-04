@@ -43,6 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actors\Concrete\Player.cs" />
+    <Compile Include="Actors\Concrete\Prop.cs" />
+    <Compile Include="Actors\Interfaces\IActor.cs" />
+    <Compile Include="Actors\Interfaces\IRespondsToInput.cs" />
+    <Compile Include="Controllers\ActorController.cs" />
+    <Compile Include="Display\ISingleSprite.cs" />
+    <Compile Include="Input\GunClericInputCommand.cs" />
+    <Compile Include="Input\InputGetter.cs" />
+    <Compile Include="Location\Vector3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
